@@ -21,7 +21,7 @@ public class ReviewController {
 
     @PostMapping("/createReview")
     public ResponseEntity<Review> createReview(@RequestBody Map<String, String> payload) {
-
+        System.out.println("hi");
         return new ResponseEntity<Review>(reviewService.createReview(payload), HttpStatus.CREATED);
     }
 }
