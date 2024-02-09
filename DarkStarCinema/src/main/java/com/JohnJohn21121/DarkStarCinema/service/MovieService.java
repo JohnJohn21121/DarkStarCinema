@@ -2,7 +2,6 @@ package com.JohnJohn21121.DarkStarCinema.service;
 
 import com.JohnJohn21121.DarkStarCinema.model.Movie;
 import com.JohnJohn21121.DarkStarCinema.repository.MovieRepository;
-import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
